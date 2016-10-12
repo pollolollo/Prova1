@@ -10,5 +10,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         System.out.print("Hello world");
+        int a = 0;
+        for(int i=0; i < 4; i++)
+             a++;
+        System.out.println(a);
+
+        //altre righe di non codice
     }
+
 }
